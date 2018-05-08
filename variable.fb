@@ -1,0 +1,7 @@
+LET x = 1.34
+PRINT x
+LET y = 7
+PRINT y
+
+PRINT "this is a test string\n this is a test"
+

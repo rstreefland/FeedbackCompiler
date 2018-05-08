@@ -1,0 +1,6 @@
+LET x = 5
+IF x==1 THEN
+PRINT "The value of x is"
+PRINT x
+ENDIF
+

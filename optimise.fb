@@ -1,0 +1,2 @@
+LET x = 0/0
+PRINT x

@@ -1,0 +1,58 @@
+LET var1 = 2
+LET pi = 3.14
+
+REM This is a while loop
+WHILE var1<=5
+  PRINT "In while loop"
+  var1 = var1 + 1
+  PRINT var1
+WEND
+
+DO
+  PRINT "In do-while loop"
+var1 = var1 + 1
+  PRINT var1
+WHILE (var1 < 8)
+WEND
+
+LET var2 = 8.27684
+
+REM This is an if statement
+IF (var2>var1) THEN
+  PRINT "In if statement"
+  PRINT var2
+ENDIF
+
+IF (pi!=3.14) THEN
+  PRINT "NOT EQUAL"
+ELSE
+  PRINT "EQUAL"
+ENDIF
+
+REM Print nan
+PRINT "Printing an different NaN:"
+LET var3 = 0
+var3 = 0/0
+PRINT var3
+
+REM Print positive infinity
+PRINT "Printing positive infinity:"
+LET var4 = 9
+var4 = 9/0
+PRINT var4
+
+REM Print negative infinity
+PRINT "Printing negative infinity:"
+LET var5 = -4
+var5 = -var5/0
+PRINT var5
+
+REM Attemp to print negative zero (should convert to zero)
+PRINT "Printing negative zero:"
+LET var6 = -0
+PRINT var6
+
+REM Compute expression
+var6 = 8
+var6 = 4 - 3 / 9 * (var5 * var5)
+PRINT var5

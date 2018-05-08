@@ -1,0 +1,22 @@
+REM this is a test comment
+LET rhys = 2 
+LET sam = 4
+rhys = rhys + 10
+
+IF (rhys==12) THEN
+	IF (sam==4) THEN
+	PRINT sam
+	ELSE
+	PRINT rhys
+	ENDIF
+ELSE
+PRINT rhys
+PRINT rhys
+ENDIF
+
+LET test = 4
+
+WHILE (test==4) 
+PRINT test
+PRINT sam
+WEND
